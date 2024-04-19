@@ -1,0 +1,19 @@
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:del="http://delegado.fc.ws.datacredito.financiera.coomeva.com.co/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <del:consultaHCAciertaQuantoV2>
+         <arg0>
+           <idenProceso>{idenProceso}</idenProceso>
+           <idenUsuario>{idenUsuario}</idenUsuario>
+           <nombreUsuario>{nombreUsuario}</nombreUsuario>
+           <nroIdentificacion>{nroIdentificacion}</nroIdentificacion>
+           <origenConsulta>{origenConsulta}</origenConsulta>
+           <primerApellido>{primerApellido}</primerApellido>
+           <tipoDocumento>{tipoDocumento}</tipoDocumento>
+           <usuario>{usuario}</usuario>
+         </arg0>
+      </del:consultaHCAciertaQuantoV2>
+   </soapenv:Body>
+</soapenv:Envelope>

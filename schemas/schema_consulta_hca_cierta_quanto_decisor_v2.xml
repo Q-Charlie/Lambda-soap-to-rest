@@ -1,0 +1,19 @@
+<SOAP-ENV:Envelope
+    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:ns1="http://delegado.fc.ws.datacredito.financiera.coomeva.com.co/">
+    <SOAP-ENV:Body>
+        <ns1:consultaHCAciertaQuantoDecisorV2>
+            <arg0>
+                <idenProceso>{idenProceso}</idenProceso>
+                <idenUsuario>{idenUsuario}</idenUsuario>
+                <nombreUsuario>{nombreUsuario}</nombreUsuario>
+                <nroIdentificacion>{nroIdentificacion}</nroIdentificacion>
+                <origenConsulta>{origenConsulta}</origenConsulta>
+                <paramFormulario>{paramFormulario}</paramFormulario>
+                <primerApellido>{primerApellido}</primerApellido>
+                <tipoDocumento>{tipoDocumento}</tipoDocumento>
+                <usuario>{usuario}</usuario>
+            </arg0>
+        </ns1:consultaHCAciertaQuantoDecisorV2>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

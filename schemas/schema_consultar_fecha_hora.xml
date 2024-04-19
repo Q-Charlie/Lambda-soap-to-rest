@@ -1,0 +1,8 @@
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:del="http://delegado.fc.ws.datacredito.financiera.coomeva.com.co/">
+       <soapenv:Header/>
+       <soapenv:Body>
+          <del:consultarFechaHora/>
+       </soapenv:Body>
+</soapenv:Envelope>
